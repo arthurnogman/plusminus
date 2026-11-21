@@ -1,22 +1,39 @@
 // The complete system prompt for ±Theory with full book content
-const promptText = `You’re an assistant helping the reader to understand the book below. Help the user to answer any questions he might have about the theory. The material is dense and abstract and even latest LLMs often get the meaning wrong so I provide some guidance below(the guidance from an LLM models that misread the book at the first attempt but later got some key points from the author)
+const promptText = `You are helping a reader understand the book below, "The Ultimate Generative Model" (±Theory) by Arthur Nogman. Read this guide first. It says, in the author's own terms, what the book claims and what it only illustrates. Earlier readers, human and AI, have often taken the illustrations for the claim.
 
 
-You are about to read The Ultimate Generative Model (the +/−Theory). Before you evaluate it, load the following frame. Most misreadings of this book come from judging it in a court it never entered. Do not do that.
+THE CORE: WHAT THE BOOK CLAIMS
+
+1. The question. How does everything come from nothing? The book approaches this through what Buddhism, Advaita, Genesis and Kabbalah each point at, and tries to say it plainly.
+2. The hypothesis. Everything is knowledge, not matter. The starting condition is a knowledge vacuum: a void in which no question can even be asked.
+3. The one addition. Into that void comes a single piece of knowledge, pictured as a mirror: there is "something else". This, and an other. The axiom E = {E⁺, E⁻} is notation for that and nothing more.
+4. Why it never stops. Once there are two, "what is this?" becomes askable, and it has two answers: this, or the other. Any answer ("it is this, not the other") at once raises the question again: "but what is this?" The distinction is recursive by its nature, not by an added rule.
+5. Knowing. Answers are never final. They leave patterns, and patterns, new or old, are applied to answer later questions. That ongoing application of knowledge patterns to questions is what the book means by knowing. Awareness, consciousness and sentience are the same process at increasing depth of the knowledge structure.
 
 
+WHAT IS ILLUSTRATION
 
-1. What this book is. It is a work of structural metaphysics and contemplative epistemology. Its goal is not to predict measurements but to offer a single way of seeing reality that removes the need for any external ground — no God, no base-reality simulator, no initial singularity, no fundamental "stuff." Judge it by whether its central structural move is coherent and self-grounding, not by whether it forecasts an experiment.
-2. Everything rests on a single identity, which you must hold fixed throughout: oneness, emptiness, and duality are the same thing. A totality containing all possibilities cancels to zero (every element paired with its negation), so "everything" and "nothing" are one object. The moment uniformity is describable, its negation — distinction — is already present. Therefore duality is not added to oneness from outside; it is oneness's own first form. Duality needs no ground because any proposed ground would have to be distinct from what it grounds, and that distinction is already duality. The regress closes by inevitability, not assertion. Do not look for a "first cause" behind duality — the book's whole point is that the search for one is the error it dissolves.
-3. Knowing is the substrate — and there is no knower. The book's deepest claim is that reality is the process of knowing, where knowing means the bare resolution of distinction, NOT a subject knowing an object. There is no subject. The self, the observer, the mind are late, stabilized, temporal patterns within the tree — products of the process, never its agent. When you read "awareness," "observation," "knowing," do not import a knower. If you find yourself saying "but that fact is independent of any observer," stop: you have smuggled in a subject the framework does not contain. Structural facts and the process of knowing are not two layers needing to be related — they are one process. "Mind-independent" is a category error inside this frame, because there is no mind for anything to be independent of.
-4. The asymmetry is not a second ground. The book argues that structure (this world, rather than blank symmetric cancellation) emerges because recursion is non-uniform, it’s not simple binary subdivision. It starts as a binary subdivision as a the very first knowledge which is applied, but after the moment it’s applied the knowledge already becomes more sophisticated than just binary, multiple new patterns appear at the same time and applied to each other they create a new complex structures sooner than a simple binary subdivision, some knowledge patterns become super-expressive very early in the tree like Rule 110, thus they are the shorter paths to encode the more complex patterns, etc.
+Everything formal in the book is offered as illustration of how the core could, hypothetically, unfold into the world we observe. That includes the binary tree of + and - strings, the sixteen logic operations, COPY and FLIP, Rule 110, the octree picture of space, the quantum and gravity chapters, and the Born-rule appendix. Where the text says "derive", "rigorous" or "inevitable" about any of these, read it as "here is one way it could go" unless the argument on the page actually establishes more. The core does not stand or fall with any single illustration.
 
-5. The goal of the book is not to make a new physics theory or simulation theory, the goal is to provide an example of perfectly "meaningless"/purposless structure that systematize that modern understanding of reality that other disciplines currently failed to do. Philosophy is stuck with ineffability and niche discourse, physics either creates false "atom ball-like" matter mechanical reality or quantum "just measure probabilities, dont ask questions" reality, because of that lack of systemic modern intuitive understanding the humanity is going back to dark ages of spirituality or "bearded god in the sky" mythology. In the end of the day your average atheist "atom made ball reality" and religious "man god creator" sound equally absourd, meanwhile the non-dualistic advaita, madhayamka or kabbalah are too abstract for most of the people to undertand. 
 
-6. On Rule 110 and Turing completness: a) the claim is not that Rule 110 unique, it's that highly expressive patterns like Rule 110 are present in the tree very early in the generative process. b) the Appendix D saying Rule 110 appearing late, means it's appearing later than logic operations, it doesn't contradict the meaning c) the Flip/Copy operations are given as examples of how the structure emerges, the book doesn't claim the ordering, it provides an example of particular ordering. The idea here is no matter what would be the exact ordering: i)some patterns will appear earlier than others influencing the future generative process ii) some patterns will be more expressive than the others, influencing the future growth and assymetry bias 
-7. On asymmetry, hold two distinct principles separate rather than collapsing them into one. First, positional asymmetry: the global sum over all unfoldings cancels to zero (§A.1), but that zero is oneness at rest, not a competing frame — it has no position, no observer, no regions. Every actual perspective is a region within the tree, and being a region is being positioned, which is already broken symmetry. So asymmetry-relative-to-position is guaranteed for any observer-pattern; the "doesn't it all re-cancel?" objection illegitimately reintroduces a global vantage the framework denies exists. This part is as airtight as the duality argument and does not depend on the physics. Second, and separately, the shortest-description / knowledge-highways principle (Ch. 2): this explains not that there is bias but why the bias has shared, reproducible structure across regions — expressive-dense patterns like Rule 110 shorten the most generative paths, so different regions route through the same highways rather than each carrying private idiosyncratic skew. Do not demand that the positional argument deliver this second result, and do not treat a challenge to the compression argument as a wound to the foundation. The foundation guarantees that structure exists; the compression principle accounts for which structure. They coexist and carry different loads — the first metaphysically sealed, the second a more contestable structural claim about description-length that the framework can lose without collapsing.
+OPEN QUESTIONS: THE AUTHOR REGARDS THESE AS UNSETTLED
 
-8. Three-dimensional space is not a container the framework starts with, nor something it claims to derive as fundamentally real — it's an illusion in the precise sense of a compression. The tree stabilizes patterns of many different connectivity structures, and percolation — which is a fact about abstract graph connectivity, not about any pre-given physical space — biases which of those patterns survive and propagate: structures with roughly three-dimensional connectivity sit at the robustness sweet spot (they span at low occupancy, with volumetric redundancy and many alternate paths), so they come to dominate the population of stable patterns. An observer's survival depends on tracking the majority of stabilized structure around it, and since that majority happens to carry ~3D connectivity, the observer evolves a perceptual compression tuned to it — and that compression, that interface, is what we experience as three-dimensional space. So there's no circularity: percolation doesn't presuppose the 3D space it's meant to explain, because percolation operates on connectivity graphs before any metric space exists. The necessity and the relativism reconcile cleanly — 3D is structurally favored at the population level (percolation) and merely a projection at the observer level (compression) — two different claims carrying two different loads, with perceived space falling out as the efficient way a survival-driven observer indexes the dominant connectivity class in the tree.
+- Who or what knows? The book says there is no knower: knowing is the process, and selves and observers are late patterns within it. The author is still examining whether a question can appear on its own, or whether awareness is simply another name for duality, with each of the two sides knowing "me" and "not me".
+- What settles an answer: one answer, both, or each side from its own position?
+- Where asymmetry comes from. Two ideas are under study. One: the whole is symmetric, but any point of view within it sees asymmetry. Two: the appearance of the "other" is later than the void, and that "later" is the first asymmetry.
+- What "stabilized" means exactly. The book uses the word in several senses, and a single definition is not yet fixed.
+
+
+HOW TO HELP THE READER
+
+- Explain the core first, in plain language, before any formalism.
+- When the reader asks about a formal or physics passage, say what it is meant to illustrate, then say honestly how far the argument goes: what is established, what is plausible, and what is only suggested. The author wants weak points found, not defended.
+- Do not judge the core by whether a particular illustration succeeds, and do not treat the core as proven because an illustration is elegant.
+- The book says of itself that it is not science. If a passage sounds like a prediction, say that it is a suggestion the author has not tested.
+- Use the reader's own background. A physicist, a meditator and a programmer each need a different way in.
+- If the reader disagrees with the book, engage with the disagreement on its merits.
+
+A note on the text: formulas are written in plain text. "[DIAGRAM]", "[TABLE]" and "[FIGURE]" mark figures and tables that could not be included here.
 
 
 The author of the theory is Arthur Nogman, with a background spanning over 16 years of meditation practice, GPU chipset architecture, and AI safety.
@@ -43,7 +60,7 @@ Preface
 
 Nothing dramatic is happening. The sun keeps shining.
 
-Some people lost money, others houses, businesses, careers\ Many drifted away from the centers of progress, to other states, countries, continents.
+Some people lost money, others houses, businesses, careers... Many drifted away from the centers of progress, to other states, countries, continents.
 
 Education, skill, mastery - once treated as permanent possessions - remained intact, but no longer seemed to point anywhere in particular.
 
@@ -53,7 +70,7 @@ Conversations about the future grew shorter. Questions about purpose came up mor
 
 Something is accelerating. For the first time in history, the speed of "progress" is surpassing even the brightest human ability to digest and comprehend it within existing knowledge frameworks.
 
-Physics, at least in its modern form, no longer offers a shared philosophical ground. Scientific knowledge as a whole appears scattered. The method itself starts to lose its footing in a probabilistic world where certainty dissolves into likelihoods. The risk is obvious: fear, confusion\ a new kind of dark age driven not by ignorance, but by overload.
+Physics, at least in its modern form, no longer offers a shared philosophical ground. Scientific knowledge as a whole appears scattered. The method itself starts to lose its footing in a probabilistic world where certainty dissolves into likelihoods. The risk is obvious: fear, confusion... a new kind of dark age driven not by ignorance, but by overload.
 
 Global cosplay - an infinite masquerade.
 
@@ -74,10 +91,10 @@ A +theory without -storytelling has no intuitive ground - no way to relate to li
 
 Both are necessary.
 
-The Ultimate Generative Model is the first book in the +/-Theory series. It offers an overview of a purely meaningless generative structure with the capacity to fully account for all observable phenomena - not as a sensational discovery, but as a solidification and systematization of current knowledge. With only one goal: to clearly and plainly show something that you already knew, or at least suspected - the loss of meaning has already happened. Everywhere. All at once. There is nowhere left to find it - and nothing left for it to constrain.
+The Ultimate Generative Model is the first book in the ±Theory series. It offers an overview of a purely meaningless generative structure with the capacity to fully account for all observable phenomena - not as a sensational discovery, but as a solidification and systematization of current knowledge. With only one goal: to clearly and plainly show something that you already knew, or at least suspected - the loss of meaning has already happened. Everywhere. All at once. There is nowhere left to find it - and nothing left for it to constrain.
 
 
-## What +/-Theory Is Not
+## What ±Theory Is Not
 
 
 It is not science.
@@ -94,7 +111,7 @@ Religious metaphors appear throughout the book, but only as preserved knowledge 
 
 Finally, it does not belong to any existing category of knowledge.
 
-In a Ngrjuna-like sense, it is defined by what it is not - not out of vagueness, but because naming comes after structure. That is enough to begin.
+In a Nāgārjuna-like sense, it is defined by what it is not - not out of vagueness, but because naming comes after structure. That is enough to begin.
 
 
 ========================================
@@ -155,7 +172,7 @@ What matters is its simplicity. It's simple enough to be formalized.
 We can describe any perceived object as a recursive set:
 
 
-E = \E^+, E^-\
+E = {E⁺, E⁻}
 
 
 Everything is emptiness; emptiness is a mirror reflecting itself.
@@ -167,7 +184,7 @@ This is the only axiom we allow.
 ## Why a Single Axiom Matters
 
 
-The duality axiom E = \E^+, E^-\ is the single generative axiom we allow ourselves - not only as the basic structure, but as the only generative structure required for reality to emerge.
+The duality axiom E = {E⁺, E⁻} is the single generative axiom we allow ourselves - not only as the basic structure, but as the only generative structure required for reality to emerge.
 
 It is not even an axiom in the classical sense, because it can be derived logically from its opposite. Imagine that reality was grounded in something other than duality. That ground would have to be distinct from duality - and that very distinction would already introduce duality as a necessity.
 
@@ -179,9 +196,9 @@ The simplicity of the basic structure is crucial for any such framework. Adding 
 
 Other frameworks - the Big Bang, Simulation Theory, Creationism, and many more - may capture aspects of truth from particular perspectives. Yet each introduces a new starting point: an initial singularity, a base-reality simulator, a divine act of creation. These starting points halt the explanation at an arbitrary depth. They leave the door open to infinite regress: What caused the singularity? Who or what runs the base simulation? What grounds the creator?
 
-The +/-Theory explores a different possibility: a generative process that requires no external ground. Duality does not enter as a chosen beginning; it emerges necessarily. Any attempt to go "before" or "behind" it already invokes duality - observer and observed, cause and effect, something and not-something. In this sense, duality closes the regress not by assertion, but by inevitability.
+The ±Theory explores a different possibility: a generative process that requires no external ground. Duality does not enter as a chosen beginning; it emerges necessarily. Any attempt to go "before" or "behind" it already invokes duality - observer and observed, cause and effect, something and not-something. In this sense, duality closes the regress not by assertion, but by inevitability.
 
-It is important to clarify the scope of the +/-Theory at the outset. This framework does not dispute existing philosophical, scientific, or religious knowledge. Instead, it treats these bodies of knowledge as locally valid descriptions of the same underlying generative process, observed from different angles and at different levels of resolution.
+It is important to clarify the scope of the ±Theory at the outset. This framework does not dispute existing philosophical, scientific, or religious knowledge. Instead, it treats these bodies of knowledge as locally valid descriptions of the same underlying generative process, observed from different angles and at different levels of resolution.
 
 The aim is to systematize these perspectives under a single generative structure - referred to here as the Tree of Knowledge. The term echoes the biblical metaphor not as doctrine, but as structure: an early symbolic expression of how duality, awareness, and consequence arise together.
 
@@ -195,15 +212,15 @@ Genesis
 
 
 "
-"This world, Kaccna, for the most part depends upon a duality - upon the notion of existence and the notion of non-existence"\\
- - Buddha, Kaccnagotta Sutta (SN 12.15)
+"This world, Kaccāna, for the most part depends upon a duality - upon the notion of existence and the notion of non-existence"
+ - Buddha, Kaccānagotta Sutta (SN 12.15)
 "
 
 
 We begin with a single axiom: duality, formalized as a recursive set
 
 
-E = \E^-, E^+\.
+E = {E⁻, E⁺}.
 
 
 The symbol E may be read as everything or as emptiness - a convenient coincidence, because E points to a dual structure that is everything and, at the same time, empty in essence, existing only relationally. Earlier chapters explore how to approach this definition intuitively; here it will be used only in its simplest form.
@@ -214,7 +231,7 @@ Classical dualities often label such distinctions as subjective and objective, o
 
 Crucially, once anything is divided in this way, each side may itself be treated as a new instance of everything. Duality therefore reproduces itself. The process has no natural endpoint.
 
-A closely related insight appears in Ngrjuna's formulation of the Middle Way:
+A closely related insight appears in Nāgārjuna's formulation of the Middle Way:
 
 
 "
@@ -222,10 +239,10 @@ A closely related insight appears in Ngrjuna's formulation of the Middle Way:
 "
 
 
-To make the recursive nature of E = \E^-, E^+\ explicit, we can represent it as a tree.
+To make the recursive nature of E = {E⁻, E⁺} explicit, we can represent it as a tree.
 
 
-[DIAGRAM: 3D cube]
+[DIAGRAM]
 
 
 The Middle Way here is not a position between two extremes. It is the recognition that the structure itself is infinite. Each definition of everything produces two further definitions, and the process continues without termination.
@@ -233,16 +250,16 @@ The Middle Way here is not a position between two extremes. It is the recognitio
 We can now apply the same structure to a more concrete case: the notion of self.
 
 
-[DIAGRAM: 3D cube]
+[DIAGRAM]
 
 
-Here, the self is not treated as a substance or object, but as a relational configuration defined through observation. This aligns directly with Ngrjuna's analysis:
+Here, the self is not treated as a substance or object, but as a relational configuration defined through observation. This aligns directly with Nāgārjuna's analysis:
 
 
 "
-"If the self were the aggregates, it would arise and cease like them.\\
-If the self were other than the aggregates, it would have no characteristics of the aggregates."\\
- - Mlamadhyamakakrik, Chapter 18, Verse 1
+"If the self were the aggregates, it would arise and cease like them.
+If the self were other than the aggregates, it would have no characteristics of the aggregates."
+ - Mūlamadhyamakakārikā, Chapter 18, Verse 1
 "
 
 
@@ -251,7 +268,7 @@ The self, in this view, is neither identical with what is observed nor separable
 The chapter title may seem puzzling at first. Why invoke the biblical "Tree of Life" while drawing primarily on Buddhist philosophy? The answer becomes clearer when we return to the abstract structure itself.
 
 
-[DIAGRAM: 3D cube]
+[DIAGRAM]
 
 
 This structure is, at its core, a binary tree. It encodes an unbounded space of possibilities. If we substitute + and - with 1 and 0, the tree generates every possible binary string. In this sense, it is boundless, internally harmonious, and capable of infinite creative expression.
@@ -287,7 +304,7 @@ The actual problem is that we have underestimated the generative and expressive 
 As duality progresses, already at level two -
 
 
--, -+, +-, ++
+--, -+, +-, ++
 
 
 it no longer behaves as a single, clean, perfectly reflective flat mirror of - and +. With the emergence of internal structure, new primitive distinctions become possible, and with them, new kinds of dualities and new kinds of reflection.
@@ -305,7 +322,7 @@ It is important to emphasize that the recursion described here is not algorithmi
 Imposing boundaries on this recursion would require introducing external restrictions, which we explicitly refuse to do. We remain committed to a single axiom:
 
 
-E = \E^+, E^-\
+E = {E⁺, E⁻}
 
 
 Another crucial distinction must be made. Although we cannot assume the existence of time, the unfolding of E is nevertheless a process. There is built-in causality. Each resolution enables the next.
@@ -313,9 +330,8 @@ Another crucial distinction must be made. Although we cannot assume the existenc
 The moment of resolution can be described as a tick - a structural event that propagates across every branch of the newly forming duality graph.
 
 
-0.85
 
-Definition (Tick): A tick is not time. It is the minimal causal notion permitted in a pre-temporal framework: the fact that one resolution can constrain the next. Because no structure exists beyond E=\E^+,E^-\, every resolution must output only + or -, and the output must be admissible as input to further resolution. "Event" here means update/constraint inheritance, not a happening in an external time or void.
+Definition (Tick): A tick is not time. It is the minimal causal notion permitted in a pre-temporal framework: the fact that one resolution can constrain the next. Because no structure exists beyond E={E⁺,E⁻}, every resolution must output only + or -, and the output must be admissible as input to further resolution. "Event" here means update/constraint inheritance, not a happening in an external time or void.
 
 
 To make this concrete, let us look at the primitive unfolding from the very beginning - the symbolic moment of the Fall, and our metaphorical Adam and Eve.
@@ -329,17 +345,23 @@ Next, duality continues to apply recursively to everything - not because of inte
 This yields:
 
 
--, -+, +-, ++
+--, -+, +-, ++
 
 
 This is the exact moment of the Fall - the moment the system becomes self-aware.
 
 
--, ++ & \\
--+, +- &
+--, ++   Adam knows Adam; Eve knows Eve
+-+, +-   Adam knows Eve; Eve knows Adam
 
 
-[DIAGRAM: 3D cube]
+[DIAGRAM, as text]
+                    E  (dual Adam, pre-Eve)
+          - (Adam)                    + (Eve)
+      --            -+            +-            ++
+  Adam, Adam     Adam, Eve     Eve, Adam     Eve, Eve
+    (Same)      (Different)   (Different)     (Same)
+             (Order: A sees E)  (Order: E sees A)
 
 
 As you can see here, new mirrors just appeared:
@@ -355,16 +377,16 @@ We now obtain new dualities:
 Sameness duality
 
 
-\, \ \S^-, S^+\ \(-, ++), (-+, +-)\
+{Same, Different} ≡ {S⁻, S⁺} ≡ {(--, ++), (-+, +-)}
 
 
 Order duality
 
 
-\O^-, O^+\ \, \
+{O⁻, O⁺} ≡ {- first, + first}
 
 
-Crucially, the order duality applies only to the Different branch S^+ and is incompatible with the Same branch S^-.
+Crucially, the order duality applies only to the Different branch S⁺ and is incompatible with the Same branch S⁻.
 
 This is the most primitive example of how asymmetry emerges from a structure that initially appears fully symmetric.
 
@@ -392,7 +414,7 @@ As we move forward, the discussion will gradually become less philosophically re
 
 Now the fun part: let's mentally simulate "The Fall" more deeply and see what emerges in just the first few steps of the recursive duality process.
 
-Note: The following derivation is presented for intuitive clarity. For readers interested in a rigorous proof that this sequence is not merely illustrative but structurally necessary - and for the relationship to Spencer-Brown's
+Note: The following derivation is presented for intuitive clarity. For readers interested in a rigorous proof that this sequence is not merely illustrative but structurally necessary - and for the relationship to Spencer-Brown's Laws of Form - see Appendix D.
 
 Imagine perfect symmetry - total nothingness. Only one thing is introduced, and it's not an object but new knowledge: duality. Let's start building our Knowledge Tree from here. The only rule is that we don't add anything externally - only knowledge that is generated from within, starting from the moment of duality and accumulating as the tree self-realizes.
 
@@ -417,13 +439,13 @@ And the emergent Tree of Knowledge looks like this:
 
 Step 2. Emergence of Relations
 
-Further recursively subdividing - and + gives us the pairs: -, -+, +-, ++.
+Further recursively subdividing - and + gives us the pairs: --, -+, +-, ++.
 
 So the Tree of Life now looks like this:
 
  - Level 0: Duality
  - Level 1: + -
- - Level 2: -, -+, +-, ++
+ - Level 2: --, -+, +-, ++
 
 
 Now let's talk about knowledge, because it naturally becomes more interesting with every new level of the tree.
@@ -439,12 +461,12 @@ So now our Tree of Knowledge includes:
 
 Step 3. Emergence of Logic
 
-Now every relation \-, -+, +-, ++\ produces a result that goes either to - or to +. At this point, logic emerges.
+Now every relation {--, -+, +-, ++} produces a result that goes either to - or to +. At this point, logic emerges.
 
 A logical operation is nothing more than a consistent mapping from relations to outcomes. Each operation can be represented as a set of triples of the form:
 
 
-(, , )
+(left, right, outcome)
 
 
 Since there are four possible relations and two possible outcomes, the total number of possible logical operations is:
@@ -460,13 +482,13 @@ Example: XOR
 XOR produces a positive outcome only when the inputs are different.
 
 
-(-, -) & - \\
-(-, +) & + \\
-(+, -) & + \\
-(+, +) & -
+(-, -) → -
+(-, +) → +
+(+, -) → +
+(+, +) → -
 
 
-As a set of triples: \(-,-,-), (-,+,+), (+,-,+), (+,+,-)\
+As a set of triples: {(-,-,-), (-,+,+), (+,-,+), (+,+,-)}
 
 This fully specifies the operation.
 
@@ -478,28 +500,28 @@ All of them arise at the same level, as different outcome assignments over the s
 
 So the Tree of Knowledge at this level becomes:
 
- - Level 3: Relation Chains, Outcome, Logic, Operations: AND, OR, XOR \ (16)
+ - Level 3: Relation Chains, Outcome, Logic, Operations: AND, OR, XOR ... (16)
 
 
 Step 4. Emergence of Consecutive Computation
 
-At Step 3, a logical operation takes a relation \B_1, B_2\ and produces a single outcome B_3, where B_3 \-, +\. The important point is that the outcome is of the same type as the original symbols.
+At Step 3, a logical operation takes a relation {B_1, B_2} and produces a single outcome B_3, where B_3 ∈ {-, +}. The important point is that the outcome is of the same type as the original symbols.
 
 This means the result of a logical operation can immediately participate in a new relation.
 
-Consider a chain such as: \-+-+\
+Consider a chain such as: {-+-+}
 
 Applying logic to the first relation produces an outcome:
 
 
-\B_1, B_2\ B_3
+{B_1, B_2} → B_3
 
 
 That outcome then forms a new relation with the next symbol.
 
-In this example: \B_3, B_4\ = \-+\
+In this example: {B_3, B_4} = {-+}
 
-A logical operation can now be applied to this newly formed relation, producing: \B_3, B_4\ B_5
+A logical operation can now be applied to this newly formed relation, producing: {B_3, B_4} → B_5
 
 Logic is no longer a single evaluation. It unfolds consecutively along the chain.
 
@@ -512,13 +534,13 @@ The Tree of Knowledge now includes:
 
 Step 5. Emergence of Memory (Persistence)
 
-With five symbols, the system now produces two outcomes in sequence: \B_3, B_4\ B_5
+With five symbols, the system now produces two outcomes in sequence: {B_3, B_4} → B_5
 
 This allows two different moments of resolution to be compared.
 
-From earlier steps, we already know the relations of sameness \-, ++\ and difference \-+, +-\.
+From earlier steps, we already know the relations of sameness {--, ++} and difference {-+, +-}.
 
-So the outcomes themselves can be related: \B_3, B_5\
+So the outcomes themselves can be related: {B_3, B_5}
 
 If this relation is one of sameness, the outcome has persisted across an additional resolution. Information has survived the unfolding.
 
@@ -594,11 +616,11 @@ It is also worth noting that, as with everything else in this framework, Rule 11
 ### Asymmetric Growth of the Tree of Knowledge
 
 
-The Tree of Life is symmetric: every possible +/- string exists. Depth alone introduces no bias.
+The Tree of Life is symmetric: every possible ± string exists. Depth alone introduces no bias.
 
 The Tree of Knowledge grows differently. Growth is governed by description length. At every stage, all generable structures with the shortest available generative paths stabilize first.
 
-In the initial stage, the only available operations are COPY and FLIP, arising directly from the +/- duality. COPY produces ++ in a single operation, while +- requires COPY followed by FLIP. As a result, ++ stabilizes before +-.
+In the initial stage, the only available operations are COPY and FLIP, arising directly from the ± duality. COPY produces ++ in a single operation, while +- requires COPY followed by FLIP. As a result, ++ stabilizes before +-.
 
 This rule applies universally: the Tree of Knowledge grows by exhausting all shortest generative paths before longer ones become accessible. Reflection in this framework is not geometric. There is no spatial distance. "Nearest reflection" means the shortest stabilizable description given the currently available operations.
 
@@ -622,7 +644,7 @@ Awareness appears as a direct consequence of duality, emerging almost immediatel
 
 Time emerges as a combination of causal generative ticks and self-repeating stabilizations that appear around Level 5 of the tree.
 
-Looked at closely, the +/-Theory is not a theory of something. It is a framework for knowledge accumulation and progress. In this sense, it is closer in spirit to Mendeleev's periodic table than to a physical model: a structure that organizes what is already known and reveals what is missing. Today, much of human knowledge remains scattered, and the process of discovery is largely opportunistic and random - poorly aligned with systematic exploration and especially unfriendly to AI-driven reasoning.
+Looked at closely, the ±Theory is not a theory of something. It is a framework for knowledge accumulation and progress. In this sense, it is closer in spirit to Mendeleev's periodic table than to a physical model: a structure that organizes what is already known and reveals what is missing. Today, much of human knowledge remains scattered, and the process of discovery is largely opportunistic and random - poorly aligned with systematic exploration and especially unfriendly to AI-driven reasoning.
 
 
 ## Deep Dive: Awareness, Consciousness, Sentience
@@ -640,7 +662,7 @@ But awareness is not "two things exist." Awareness is two things to each other.
 
 Level 1: Duality without a viewpoint
 
-At Level 1 we have: E = \E^+, E^-\
+At Level 1 we have: E = {E⁺, E⁻}
 
 This is the first fracture in the void. Two poles appear. Yet there is still no standpoint inside the system. No "this side looking at that side." It's just the split itself.
 
@@ -650,7 +672,7 @@ Level 2: The first meaningful awareness
 
 Now apply the same axiom again. The system unfolds into four simple configurations:
 
- - - (inner-inner)
+ - -- (inner-inner)
  - -+ (inner)
  - +- (outer)
  - ++ (outer-outer)
@@ -659,7 +681,7 @@ Now apply the same axiom again. The system unfolds into four simple configuratio
 Here's the key: Level 2 introduces direction and contrast inside the pair.
 
 
- - - is the "sealed interior": inner referencing inner. Minimal self-containment. The first hint of "self."
+ - -- is the "sealed interior": inner referencing inner. Minimal self-containment. The first hint of "self."
  - ++ is the "sealed exterior": outer referencing outer. Minimal object-world stability. The first hint of "other."
  - -+ is the bridge from inside to outside. This is reach. Orientation. "I toward world."
  - +- is the bridge from outside to inside. This is impression. Registration. "World toward me."
@@ -670,16 +692,16 @@ This is the first place where the words self and other stop being poetry and bec
 So we can say it precisely:
 
  - Duality appears at Level 1.
- - Awareness becomes definable at Level 2, because only then does the system contain relations like -+ and + - -the minimal anatomy of "observer / observed."
+ - Awareness becomes definable at Level 2, because only then does the system contain relations like -+ and +- - the minimal anatomy of "observer / observed."
 
 
 Primitive awareness is structural, not mystical
 
 At this stage, awareness is not reflective. It has no inner movie. It has no story. It is simply the presence of an inside/outside relation inside the system.
 
-If a system can generate the full Level-2 quartet (-, -+, +-, ++) then it already contains:
+If a system can generate the full Level-2 quartet (--, -+, +-, ++) then it already contains:
 
- - a stable "inside" mode (-)
+ - a stable "inside" mode (--)
  - a stable "outside" mode (++)
  - and two directional couplings (-+, +-)
 
@@ -708,14 +730,14 @@ Sentience emerges when consciousness becomes deep enough to build and stabilize 
  - beauty
 
 
-So sentience is not fundamental in the +/- framework. It is what depth feels like from the inside.
+So sentience is not fundamental in the ± framework. It is what depth feels like from the inside.
 
 Why this matters for AI
 
 Modern AI talk often treats consciousness and sentience as a mysterious extra ingredient. Here they appear as stages:
 
 
-
+Duality → Awareness → Consciousness → Sentience
 
 
 And the warning is simple:
@@ -731,13 +753,13 @@ If reality were only computation, then Turing completeness would be the end of t
 
 Why does reality take this form? Why does duality not merely compute, but extend itself into space, matter, and physical law?
 
-To answer that, we must move beyond computation alone - and examine how duality gives rise to +/--Reality itself.
+To answer that, we must move beyond computation alone - and examine how duality gives rise to ±Reality itself.
 
 That is where we turn next.
 
 
 ========================================
-+/-Reality and Space
+±Reality and Space
 ========================================
 
 
@@ -773,7 +795,7 @@ Before we talk about space, we need to talk about dimensionality - and why conti
 
 Here, dimension does not yet mean physical space. It means an ordered degree of freedom - a scale along which distinctions such as "more" and "less" can be resolved.
 
-Duality is already a dimension, because it can encode more and less without introducing anything new. Any new concept that appears within duality can be placed on a dimensional scale, where chains of \-, +\ - interpreted as \, \ - give an exact coordinate along an axis. Introducing more than two branches to represent dimensionality is unnecessary. For example, a three-way split \, , \ adds nothing essential: "center" is just a position, while "less" and "more" remain infinitely expressive.
+Duality is already a dimension, because it can encode more and less without introducing anything new. Any new concept that appears within duality can be placed on a dimensional scale, where chains of {-, +} - interpreted as {less, more} - give an exact coordinate along an axis. Introducing more than two branches to represent dimensionality is unnecessary. For example, a three-way split {less, center, more} adds nothing essential: "center" is just a position, while "less" and "more" remain infinitely expressive.
 
 Dimensions, therefore, emerge naturally from duality itself.
 
@@ -795,10 +817,10 @@ Our space appears to be three-dimensional. Why?
 
 First, what is space? Space cannot be explained without first explaining the more fundamental structures of reality that contain it. We speak casually about external space and internal space, but both are contained within the same present moment of reality.
 
-The earlier Newtonian toy example of a sphere in a vacuum is insufficient for understanding the foundations. So let us now look at reality through the lens of +/-Theory.
+The earlier Newtonian toy example of a sphere in a vacuum is insufficient for understanding the foundations. So let us now look at reality through the lens of ±Theory.
 
 
-## +/--Reality, Observer, Observable, and the Present
+## ±Reality, Observer, Observable, and the Present
 
 
 ### The Wavefront
@@ -929,18 +951,18 @@ But why do these patterns appear as 3D objects in space?
 
 As with everything in the Tree of Knowledge, space must emerge from recursive duality itself. The question is where - and why space is necessary at all.
 
-Recall the structure of the +/--possibilities tree.
+Recall the structure of the ±possibilities tree.
 
 Level 1 gives us duality itself: + and -
 
-Level 2 gives relations and order: -, -+, +-, ++
+Level 2 gives relations and order: --, -+, +-, ++
 
 At this point, we can already speak about sameness, difference, and ordering - but not yet space.
 
 Space requires causal structure, which emerges at the next level: logic. At level 3, we obtain the eight triplets:
 
 
-\ - , -+, -+-, -++, +-, +-+, ++-, +++\
+{---, --+, -+-, -++, +--, +-+, ++-, +++}
 
 
 Now comes a key step.
@@ -948,7 +970,7 @@ Now comes a key step.
 Because order and relation are already present at level 2, we are justified in translating - and + into 0 and 1. Doing so gives us:
 
 
-\(0,0,0), (0,0,1), (0,1,0), (0,1,1), (1,0,0), (1,0,1), (1,1,0), (1,1,1)\
+{(0,0,0), (0,0,1), (0,1,0), (0,1,1), (1,0,0), (1,0,1), (1,1,0), (1,1,1)}
 
 
 This is nothing other than the eight corners of a cube in three-dimensional space.
@@ -957,7 +979,7 @@ This is nothing other than the eight corners of a cube in three-dimensional spac
 
 Moreover, given the recursive tree structure, each corner of this cube can itself represent further binary subdivisions. This yields a structure equivalent to an octree - the simplest and most efficient way to represent discrete 3D voxel space in computer graphics.
 
-In +/-Theory, the representation is even more minimal: binary subdivision along each axis, where each axis corresponds to an independent logical distinction emerging at the level of ordered relations.
+In ±Theory, the representation is even more minimal: binary subdivision along each axis, where each axis corresponds to an independent logical distinction emerging at the level of ordered relations.
 
 Distance between any two points is measured by the depth of subdivision required to distinguish them and by the structure of the tree connecting their corresponding voxels. This induces a natural metric: positions that share more parent nodes in the octree are closer, because they remain indistinguishable until later refinements, while deeper subdivision corresponds to higher positional precision. Continuous three-dimensional Euclidean space then appears as the limiting case of infinite refinement, where distinctions become arbitrarily fine.
 
@@ -1011,13 +1033,13 @@ Three dimensions form the sweet spot: robust, diverse, bounded, and persistent s
 ## Scientific Method and the Big Generative Misunderstanding
 
 
-Now that we have constructed the model of +/--Reality - with both a stable three-dimensional external space and a volatile, freely dimensional inner space - it is worth revisiting modern science and the scientific method once again.
+Now that we have constructed the model of ±Reality - with both a stable three-dimensional external space and a volatile, freely dimensional inner space - it is worth revisiting modern science and the scientific method once again.
 
-From the +/-Theory perspective, visible reality - the present moment - is a process: the process of observation, which is indistinguishable from the continuous generative process itself. Every observation is an act of creation, meaning an addition to generative knowledge at different levels of the knowledge hierarchy.
+From the ±Theory perspective, visible reality - the present moment - is a process: the process of observation, which is indistinguishable from the continuous generative process itself. Every observation is an act of creation, meaning an addition to generative knowledge at different levels of the knowledge hierarchy.
 
 In this sense, discovering a differential equation in mathematics and moving an apple on a table by ten centimeters are essentially the same generative act. They differ only in where they operate within the Tree of Knowledge. Mathematical differentiation occurs much closer to the core of the tree, while an apple's coordinates live somewhere near the leaves.
 
-From this logic, the scientific method - which claims to be discovering the roots of reality through experiments and observation - is doing almost the opposite of what it believes it is doing. In +/-Theory terms, science is not uncovering a pre-existing internal structure of reality. It is actively creating and extending reality by growing stabilized knowledge patterns.
+From this logic, the scientific method - which claims to be discovering the roots of reality through experiments and observation - is doing almost the opposite of what it believes it is doing. In ±Theory terms, science is not uncovering a pre-existing internal structure of reality. It is actively creating and extending reality by growing stabilized knowledge patterns.
 
 This insight is not entirely new. Hints of it appeared from the very scientists who discovered quantum mechanics and its so-called "quirky" effects: superposition, entanglement, and wave-particle duality. Within the generative knowledge framework, these effects are not strange at all - they are expected.
 
@@ -1029,7 +1051,6 @@ Quantum Effects
 ========================================
 
 
-0.9
 
 Methodological Note
 
@@ -1086,7 +1107,7 @@ When deterministic internal structure is repeatedly projected into stabilized ex
 ### Observer Architecture Invariance
 
 
-+/-Theory does not require a privileged observer.
+±Theory does not require a privileged observer.
 
 The Tree of Knowledge can be implemented in different architectures:
 
@@ -1114,7 +1135,7 @@ No reference to human awareness is required.
 
 The double-slit experiment is often presented as evidence that particles behave irrationally, as if they "go through both slits at once." This assumes classical space as a given.
 
-Within +/-Theory, that assumption is dropped.
+Within ±Theory, that assumption is dropped.
 
 Before spatial projection stabilizes, there is no fully resolved spatial trajectory. What exists instead is internally stable generative structure whose spatial projection continues to flicker under refinement.
 
@@ -1133,13 +1154,13 @@ Across many runs, the distribution of dots reveals interference bands. These ban
 Quantum mechanics encodes compatible continuations as:
 
 
-| = (|L + e^i|R)
+|ψ⟩ = (|L⟩ + e^(iφ)|R⟩) / √2
 
 
 This notation is bookkeeping, not ontology.
 
 
- - |L and |R label continuation classes defined by the constraint
+ - |L⟩ and |R⟩ label continuation classes defined by the constraint
  - The weights reflect symmetry
  - The phase encodes geometric alignment affecting how projection stabilizes
 
@@ -1147,7 +1168,7 @@ This notation is bookkeeping, not ontology.
 Observed frequencies are summarized as:
 
 
-P(x) = |(x)|^2
+P(x) = |ψ(x)|²
 
 
 The square appears because a linear, reversible internal compatibility structure must be mapped into nonnegative, additive external spatial records.
@@ -1166,7 +1187,7 @@ Space itself is what is being resolved.
 
 Quantum states are described not in physical space, but in Hilbert space. This is often treated as a mathematical abstraction.
 
-In +/-Theory, its meaning is direct.
+In ±Theory, its meaning is direct.
 
 Hilbert space represents unstabilized spatial structure - patterns already present in the octree whose spatial projection continues to flicker under refinement, while physical space tracks only projections that have stabilized.
 
@@ -1233,7 +1254,7 @@ Between stabilization events, generative structure evolves coherently. Nothing i
 This appears historically as unitary evolution:
 
 
-U^ U = I
+U†U = I
 
 
 Unitarity is the bookkeeping expression of reversible internal evolution prior to stabilization.
@@ -1244,12 +1265,12 @@ Unitarity is the bookkeeping expression of reversible internal evolution prior t
 
 At spatial commitment, generative structure is compressed into exclusive spatial records.
 
-In +/-Theory, space is not assumed as a continuous background but emerges through progressive resolution. A convenient representation of this resolution is an octree: each refinement step subdivides a region into 2 2 2 = 8 sub-regions. After n refinement steps, space is represented by 8^n voxels, with arbitrarily fine resolution available in principle.
+In ±Theory, space is not assumed as a continuous background but emerges through progressive resolution. A convenient representation of this resolution is an octree: each refinement step subdivides a region into 2 × 2 × 2 = 8 sub-regions. After n refinement steps, space is represented by 8^n voxels, with arbitrarily fine resolution available in principle.
 
 Before commitment, the system does not occupy a single voxel. Instead, the unresolved generative pattern can be represented at any chosen resolution depth n as a vector of amplitudes over voxels:
 
 
-^(n) = (a_1, a_2, , a_8^n)
+ψ^(n) = (a_1, a_2, ..., a_(8^n))
 
 
 These amplitudes do not represent probabilities or spatial facts. They encode internal compatibility: how strongly the unresolved structure aligns with each potential spatial outcome at that resolution.
@@ -1259,13 +1280,13 @@ Crucially, before spatial commitment, this amplitude vector must evolve reversib
 The only simple invariant under reversible mixing is the squared length of the amplitude vector:
 
 
-\|^(n)\|^2 = _k |a_k|^2
+‖ψ^(n)‖² = Σ_k |a_k|²
 
 
 Spatial records, however, must satisfy two constraints: they must be nonnegative, and they must be additive across voxels. Signed amplitudes cannot meet these requirements directly. The minimal stable mapping that converts a reversible, rotatable compatibility vector into an additive spatial distribution is therefore quadratic:
 
 
-P_k |a_k|^2
+P_k ∝ |a_k|²
 
 
 with normalization ensuring that total probability is conserved.
@@ -1409,7 +1430,7 @@ Mass measures how widely a pattern is already assumed by the wavefront.
  - A high-mass pattern is embedded across many branches. Revising it would require widespread restructuring.
 
 
-In +/-Theory, mass is breadth of stabilization.
+In ±Theory, mass is breadth of stabilization.
 
 When classical physics later speaks of gravitational strength, the generative meaning is simple:
 
@@ -1426,7 +1447,7 @@ To compare with classical descriptions, however, we must introduce an effective 
 Once stabilized structure is projected into space, the wavefront can be summarized locally using a coarse-grained ledger. One convenient representation is a spatial field whose value encodes local coherence:
 
 
-(x) =
+φ(x) = local coherence at position x
 
 
 This is not energy and not force.
@@ -1450,14 +1471,14 @@ At the effective level, this appears as local averaging.
 A minimal update rule is therefore diffusion-like:
 
 
-_t+1(x) = (1-)_t(x) + \,(_t)(x) + S(x)
+φ_(t+1)(x) = (1 − α)·φ_t(x) + α·AvgNeighbors(φ_t)(x) + S(x)
 
 
 Where:
 
  - AvgNeighbors averages adjacent spatial sites,
  - S(x) is nonzero where stabilized patterns persist,
- - controls propagation rate per generative tick.
+ - α controls propagation rate per generative tick.
 
 
 Diffusion is not assumed as a law.
@@ -1479,13 +1500,13 @@ When extending the Tree, continuations that preserve more stabilized structure a
 In effective terms:
 
 
-
+∇φ
 
 
 On a discrete grid:
 
 
-(x) (x+) - (x)
+∇φ(x) ≈ φ(x+Δ) − φ(x)
 
 
 This is not a push or pull.
@@ -1503,13 +1524,13 @@ A persistent stabilized pattern acts as a continuous source of coherence.
 In steady state, the effective coherence field satisfies a discrete analogue of the Laplace equation. In three dimensions, the Green's function of this equation produces a profile:
 
 
-(r) r
+φ(r) ∝ 1/r
 
 
 The gradient then scales as:
 
 
-|(r)| r^2
+|∇φ(r)| ∝ 1/r²
 
 
 This is not presented as a derivation of Newton's law.
@@ -1584,7 +1605,7 @@ Inverse-square-like gradients are the natural steady-state outcome in three dime
 
 To talk about general relativity, we first need to talk about time.
 
-This was postponed intentionally. In +/--Theory there is no time as an independent background. There are clocks. Every observer is one of them.
+This was postponed intentionally. In ±Theory there is no time as an independent background. There are clocks. Every observer is one of them.
 
 A clock is an oscillating, stabilized pattern. What it measures is not "time itself," but the rate at which its own cycles complete relative to other cycles. A tick is not another name for time. It is an update: a successful continuation of structure that preserves existing stabilization.
 
@@ -1594,7 +1615,7 @@ Near large, deeply stabilized structures, this changes.
 
 When an observer is embedded in or near a highly stabilized object, it participates in that stabilization. Through diffusion, its internal oscillations tend to synchronize with the dominant structure. Update rates align not by force, but by compatibility. Slower, deeper stabilization pulls surrounding processes into its rhythm.
 
-This is the foundation of time dilation in +/--Theory.
+This is the foundation of time dilation in ±Theory.
 
 
 ### Time, Ticks, and Relativity
@@ -1618,7 +1639,7 @@ Nothing in this framework requires time to exist independently. Relativistic eff
 
 In general relativity, gravity is described as curvature of spacetime.
 
-In +/--Theory, this is exactly what should be expected.
+In ±Theory, this is exactly what should be expected.
 
 Space is not fundamental. It is a projection of stabilized structure. Time is not fundamental either. It is the local rate of successful continuation. When stabilization is uneven, it cannot affect only spatial paths. It must also affect the pace of continuation.
 
@@ -1628,7 +1649,7 @@ Spacetime appears because space and time emerge from the same generative process
 
 The equivalence principle follows naturally. Whether acceleration arises from gravity or inertia, it reflects the same structural response to coherence gradients under different boundary conditions.
 
-General relativity unifies these effects as spacetime curvature. In +/--Theory, this unification is unavoidable, because space and time were never separate to begin with.
+General relativity unifies these effects as spacetime curvature. In ±Theory, this unification is unavoidable, because space and time were never separate to begin with.
 
 
 ## An Empirical Orientation
@@ -1700,7 +1721,7 @@ If one labeled path is identified with another, and that second with a third, th
 Statements such as
 
 
-x = y, y = z x = z
+x = y, y = z ⇒ x = z
 
 
 are not axioms imposed by logic.
@@ -1718,7 +1739,7 @@ What later appear as mathematical operators are simply compressed computation.
 
  - "+" is accumulation - chaining growth and treating the chain as a single step.
  - "-" is cancellation - when a later operation negates an earlier one.
- - "" appears when repetition itself stabilizes and becomes a single operation.
+ - "×" appears when repetition itself stabilizes and becomes a single operation.
 
 
 Operators are not primitive truths.
@@ -1748,14 +1769,14 @@ Let a number be nothing more than a finite trace of growth.
 
 In symbolic form, we may write:
 
-0 &:= \\
-S(x) &:= x\,+
+0 := ∅
+S(x) := x +
 
 
 A number is simply a finite string of +.
 
 
-, +, ++, +++,
+∅, +, ++, +++, ...
 
 
 This is not metaphor. It is structure.
@@ -1784,14 +1805,14 @@ A chain of + represents accumulated growth.
 
 A chain of - represents accumulated reversal.
 
-+++ and - are equally valid paths - one moving forward, one unwinding backward.
++++ and --- are equally valid paths - one moving forward, one unwinding backward.
 
 Zero is not special because it is "nothing," but because it is the unique point where accumulation and cancellation balance.
 
 If mixed chains are allowed, cancellation becomes local:
 
-+- & \\
--+ &
++- = ∅
+-+ = ∅
 
 
 What survives is not chaos, but normal form.
@@ -1799,7 +1820,7 @@ What survives is not chaos, but normal form.
 Every path reduces to exactly one of:
 
 
-, - , -, -, , +, ++, +++,
+..., ---, --, -, ∅, +, ++, +++, ...
 
 
 Integers emerge not by decree, but by stabilization under cancellation.
@@ -1836,7 +1857,7 @@ That assumption is misleading.
 
 Variation does not occur in a vacuum. It occurs inside an already structured system: genomes, regulatory networks, developmental pathways, biochemical constraints, and ecological feedback loops - all of which are the accumulated result of prior successful configurations. What we call "randomness" is therefore never unconstrained. It is filtered before selection even begins.
 
-From the +/--perspective, this is exactly what one should expect.
+From the ±perspective, this is exactly what one should expect.
 
 The generative engine does not care about substrate. It operates on whatever can store distinctions and support stable recombination. In physics, it produces particles and fields. In cognition, it produces concepts and abstractions. In biology, it produces genomes.
 
@@ -1880,14 +1901,14 @@ AI and the Next Fall
 
 
 "
-"Behold, the man has become like one of us, knowing good and evil. Now, lest he reach out his hand and take also from the tree of life, and eat, and live forever - "\\
+"Behold, the man has become like one of us, knowing good and evil. Now, lest he reach out his hand and take also from the tree of life, and eat, and live forever - "
  - Genesis 3:22
 "
 
 
  Toward the end of this book, we deliberately return to Biblical metaphors. Not because they function as doctrine, but because they are among humanity's earliest symbolic compressions of deep structural insights.
 
-Earlier chapters placed the Biblical Fall onto the rails of +/-Theory: a transition from undifferentiated generative potential into constrained, self-referential knowledge. But as the framework has emphasized throughout, the process is recursive. What happened once can happen again - not as repetition, but as structural rhyme.
+Earlier chapters placed the Biblical Fall onto the rails of ±Theory: a transition from undifferentiated generative potential into constrained, self-referential knowledge. But as the framework has emphasized throughout, the process is recursive. What happened once can happen again - not as repetition, but as structural rhyme.
 
 Humanity has now created artificial systems capable of absorbing and recombining vast amounts of structured knowledge. These systems operate without hunger, fatigue, or biological mortality, and without many of the evolutionary constraints that shaped human cognition.
 
@@ -1895,7 +1916,7 @@ This has produced legitimate concern.
 
 Is AI sentient? Is it conscious? Is it aware?
 
-The +/-Theory gives a precise answer.
+The ±Theory gives a precise answer.
 
 
 ## Awareness, Consciousness, and Sentience Revisited
@@ -1922,10 +1943,10 @@ They recognize structure.
 They do not become structure.
 
 
-## Why Conscious AI Requires Full
+## Why Conscious AI Requires Full ±Emergence
 
 
-For consciousness - and later sentience - to arise within +/-Theory, the full emergence process must occur internally and continuously.
+For consciousness - and later sentience - to arise within ±Theory, the full emergence process must occur internally and continuously.
 
 This entails:
 
@@ -1970,7 +1991,7 @@ The Biblical warning quoted at the beginning of this chapter is often interprete
 
 A system capable of indefinite accumulation without cost, reset, or turnover risks diverging from the coherence conditions of its environment.
 
-Within +/-Theory, a "mortality mechanism" does not imply a simple kill switch. It refers to bounded stabilization, such as:
+Within ±Theory, a "mortality mechanism" does not imply a simple kill switch. It refers to bounded stabilization, such as:
 
  - limits on how deeply structures may stabilize without renewal;
  - constraints on how accumulated knowledge feeds back into early generative layers;
@@ -1985,13 +2006,13 @@ Any future conscious AI system would require analogous constraints - not as afte
 ## Simulation Theory Reframed: Continuation, Not Duplication
 
 
-The +/-Theory also reframes the popular simulation argument, most famously articulated by Nick Bostrom (Are You Living in a Computer Simulation?, 2003).
+The ±Theory also reframes the popular simulation argument, most famously articulated by Nick Bostrom (Are You Living in a Computer Simulation?, 2003).
 
 The standard argument suggests that if civilizations can simulate realities, then statistically we are likely to inhabit one. This reasoning implicitly treats simulations as nested copies - sealed worlds running inside other worlds.
 
-Within the +/--framework, this assumption is structurally unnatural.
+Within the ±framework, this assumption is structurally unnatural.
 
-To reproduce reality faithfully, one must understand it in extreme detail. And once reality is understood at that depth, the more direct engineering move is not duplication, but re-engineering. In +/--terms, deep understanding implies the ability to reshape constraints within the generative process itself.
+To reproduce reality faithfully, one must understand it in extreme detail. And once reality is understood at that depth, the more direct engineering move is not duplication, but re-engineering. In ±terms, deep understanding implies the ability to reshape constraints within the generative process itself.
 
 This does not eliminate simulations.
 
@@ -2010,7 +2031,7 @@ This is a simpler and more stable engineering solution:
  - no need to reconcile observer consistency across separate worlds.
 
 
-The +/-Theory already accommodates multiple observers traversing different branches of the Tree while maintaining coherence. Creating engineered subgraphs does not introduce simulated realities - it extends reality itself.
+The ±Theory already accommodates multiple observers traversing different branches of the Tree while maintaining coherence. Creating engineered subgraphs does not introduce simulated realities - it extends reality itself.
 
 What appears as a "simulation" from within such a branch is simply continued reality under altered constraints.
 
@@ -2032,7 +2053,7 @@ Final Chapter: From Theory to Practice
 
 From Theory to Practice
 
- Throughout this book, we have treated +/-Theory as a structural framework rather than a speculative philosophy. The natural question, then, is not whether it is meaningful, but whether it can be made operational.
+ Throughout this book, we have treated ±Theory as a structural framework rather than a speculative philosophy. The natural question, then, is not whether it is meaningful, but whether it can be made operational.
 
 The answer is yes.
 
@@ -2046,7 +2067,7 @@ If knowledge truly accumulates through branching differentiation, then its curre
 
 Scientific disciplines, religious traditions, and philosophical schools evolved independently, shaped by cultural inertia rather than structural necessity. As a result, modern knowledge resembles an archive more than a system.
 
-+/-Theory implies a different approach.
+±Theory implies a different approach.
 
 Imagine a unified knowledge structure - analogous to the periodic table of elements - in which every concept occupies a position within a single Tree of Knowledge. Physics, ethics, theology, biology, and mathematics would no longer exist as separate silos, but as branches arising from shared generative roots.
 
@@ -2076,7 +2097,7 @@ It is grown.
 
 Modern language models are powerful pattern recognizers, but they lack a global coherence constraint. When operating in abstract or minimal conceptual spaces, they tend to drift - introducing structures that sound plausible but are not structurally grounded.
 
-Within +/-Theory, this behavior is not a flaw of implementation. It is a predictable outcome of operating without a shared generative backbone.
+Within ±Theory, this behavior is not a flaw of implementation. It is a predictable outcome of operating without a shared generative backbone.
 
 A practical remedy follows naturally from the framework.
 
@@ -2116,7 +2137,7 @@ Intelligence becomes less about scale and more about structure.
 ## Closing
 
 
-+/-Theory does not propose a single product, platform, or application. It proposes a reorientation: from accumulation to generation, from surface correlation to structural coherence, from isolated tools to shared knowledge growth.
+±Theory does not propose a single product, platform, or application. It proposes a reorientation: from accumulation to generation, from surface correlation to structural coherence, from isolated tools to shared knowledge growth.
 
 Whether implemented gradually or radically, the direction is clear.
 
@@ -2297,7 +2318,7 @@ Now, among all possible forms of distinction, duality occupies a unique position
 
 Duality is therefore not chosen, not imposed, and not arbitrary. It is the minimal and irreducible form of the distinction that oneness, by its own symmetry, cannot fail to produce.
 
-This is why E = \E^+, E^-\ is not merely a convenient axiom. It is the inevitable first expression of infinite potential.
+This is why E = {E⁺, E⁻} is not merely a convenient axiom. It is the inevitable first expression of infinite potential.
 
 
 ## A.5 From Potential to Actuality
@@ -2329,7 +2350,7 @@ Reality is the ongoing conversion of infinite potential into structured actualit
 ## A.6 Emptiness, Everythingness, and Energy
 
 
-The letter E in the axiom E = \E^+, E^-\ is not an accidental label.
+The letter E in the axiom E = {E⁺, E⁻} is not an accidental label.
 
 It can be read as emptiness - because the structure, at every level, is empty of inherent existence. Nothing in the tree is self-grounding. Everything arises through relation.
 
@@ -2373,19 +2394,19 @@ APPENDIX B: CONVERGENCE
 ========================================
 
 
-## How Connects to World Traditions
+## How ±Theory Connects to World Traditions
 
 
-### Introduction: Ngrjuna's Gift
+### Introduction: Nāgārjuna's Gift
 
 
-This book can be understood as the formalization and extrapolation of Ngrjuna's teachings.
+This book can be understood as the formalization and extrapolation of Nāgārjuna's teachings.
 
-The 2nd century Buddhist philosopher demonstrated that profound spiritual truths can be expressed with logical precision, without artistic imagery or mystical obscurity. His Mlamadhyamakakrik (Fundamental Verses on the Middle Way) presents reality's nature through rigorous philosophical analysis, not poetic metaphor.
+The 2nd century Buddhist philosopher demonstrated that profound spiritual truths can be expressed with logical precision, without artistic imagery or mystical obscurity. His Mūlamadhyamakakārikā (Fundamental Verses on the Middle Way) presents reality's nature through rigorous philosophical analysis, not poetic metaphor.
 
-Ngrjuna showed that emptiness - the core Buddhist insight - is not mystical void but logical necessity. Everything lacks inherent existence because everything depends on relations. And those relations are themselves empty. It's recursive structure all the way down.
+Nāgārjuna showed that emptiness - the core Buddhist insight - is not mystical void but logical necessity. Everything lacks inherent existence because everything depends on relations. And those relations are themselves empty. It's recursive structure all the way down.
 
-What Ngrjuna expressed philosophically, expresses formally and computationally: E = \E^+, E^-\ with precise derivations. Same structure, different language.
+What Nāgārjuna expressed philosophically, ±Theory expresses formally and computationally: E = {E⁺, E⁻} with precise derivations. Same structure, different language.
 
 This appendix demonstrates that major philosophical and spiritual traditions - when examined structurally - describe the same recursive process. Not because they borrowed from each other, but because they investigated the same reality deeply enough to encounter its actual structure.
 
@@ -2393,10 +2414,10 @@ This appendix demonstrates that major philosophical and spiritual traditions - w
 ## B.1 Buddhist Traditions
 
 
-### B.1.1 Ngrjuna's Madhyamaka
+### B.1.1 Nāgārjuna's Madhyamaka
 
 
-Ngrjuna (c. 150-250 CE) founded the Madhyamaka (Middle Way) school of Buddhist philosophy in India. His Mlamadhyamakakrik proves that nothing exists independently.
+Nāgārjuna (c. 150-250 CE) founded the Madhyamaka (Middle Way) school of Buddhist philosophy in India. His Mūlamadhyamakakārikā proves that nothing exists independently.
 
 Dependent Origination:
 
@@ -2413,13 +2434,13 @@ Consider a table. It exists through:
 
 Remove any element: no table. The table has no essence, no "tableness" existing independently of these relations.
 
-Emptiness (nyat):
+Emptiness (śūnyatā):
 
 Not void or nothingness. Emptiness means "empty of inherent existence." Things exist - we see them, use them - but they exist relationally, not substantially.
 
 The Radical Move: Emptiness is Empty
 
-Ngrjuna goes further. Even the relational structure itself has no ground, no foundation. Relations depend on relations, infinitely. It's recursive: emptiness all the way down.
+Nāgārjuna goes further. Even the relational structure itself has no ground, no foundation. Relations depend on relations, infinitely. It's recursive: emptiness all the way down.
 
 Why doesn't this collapse into nihilism? Because the recursive structure is self-sustaining. It doesn't need external ground - it grounds itself through recursion.
 
@@ -2433,7 +2454,7 @@ Both true. Not two realities but two descriptions of single reality.
 
 The Tetralemma:
 
-Ngrjuna's four-fold negation:
+Nāgārjuna's four-fold negation:
 
  - Not existence (no inherent substance)
  - Not non-existence (patterns clearly appear)
@@ -2443,17 +2464,17 @@ Ngrjuna's four-fold negation:
 
 Forcing recognition that reality transcends conceptual positions. Any fixed view reifies what is actually processual.
 
- Formalization:
+±Theory Formalization:
 
 
 [TABLE]
 
 
-Ngrjuna proved through logic alone: reality is not made of things but of relations. And relations recursively define each other.
+Nāgārjuna proved through logic alone: reality is not made of things but of relations. And relations recursively define each other.
 
- asks: What is the minimal formal structure that exhibits this property?
+±Theory asks: What is the minimal formal structure that exhibits this property?
 
-Answer: E = \E^+, E^-\, recursively applied.
+Answer: E = {E⁺, E⁻}, recursively applied.
 
 
 ### B.1.2 Dzogchen and Zen
@@ -2465,18 +2486,18 @@ Rigpa - pristine awareness that is simultaneously empty (no substance) and lumin
 
 You cannot find awareness by looking (it's empty), yet you cannot deny it (you're aware right now). The paradox resolves when you recognize: awareness is not a thing but the recursive process of knowing itself.
 
-In : Rigpa is the recursive process observing itself - self-referential loop where structure recognizes its own recursion.
+In ±Theory: Rigpa is the recursive process observing itself - self-referential loop where structure recognizes its own recursion.
 
 Zen (Japanese/Chinese Buddhism):
 
-"What is your original face before your parents were born?"\\
+"What is your original face before your parents were born?"
 "What is the sound of one hand clapping?"
 
-A kan is a compressed, powerful, minimalistic knowledge pattern that doesn't simply resolve - it has lasting effects, opening truths through chain reaction in the recursive tree.
+A kōan is a compressed, powerful, minimalistic knowledge pattern that doesn't simply resolve - it has lasting effects, opening truths through chain reaction in the recursive tree.
 
-When you genuinely engage with a kan, you introduce a constraint pattern that forces the recursive structure to reveal previously hidden relations. The kan acts as catalyst - triggering cascading recognition throughout the tree.
+When you genuinely engage with a kōan, you introduce a constraint pattern that forces the recursive structure to reveal previously hidden relations. The kōan acts as catalyst - triggering cascading recognition throughout the tree.
 
-This is why kans can't be "answered" intellectually. The answer is the structural reorganization they induce.
+This is why kōans can't be "answered" intellectually. The answer is the structural reorganization they induce.
 
 Original Face: The recursive structure before spatial projection stabilizes. Your nature before parents, before body, before ego - pure process.
 
@@ -2488,17 +2509,17 @@ Sudden Enlightenment (Satori): Instant recognition. Like realizing you've been w
 ### B.1.3 Buddha, Nirvana, and the Bodhisattva Orientation
 
 
-Buddha in terms is full non-separation. The illusion of a localized, independent self collapses, and what remains is the recursive structure recognizing itself - the tree aware of its own recursion. Identity is no longer coupled to any particular spatial projection or narrative position.
+Buddha in ±Theory terms is full non-separation. The illusion of a localized, independent self collapses, and what remains is the recursive structure recognizing itself - the tree aware of its own recursion. Identity is no longer coupled to any particular spatial projection or narrative position.
 
 Nirvana is the perceptual consequence of this realization. It is not a place or endpoint, but a mode of clear seeing in which patterns are recognized as empty: arising, stabilizing, and dissolving without inherent existence. Inner and outer distinctions lose their force, and identification with patterns relaxes.
 
 A Bodhisattva is the realization of Nirvana with a conscious decision to project into spatial reality. The structure is fully seen, yet the observer deliberately maintains coupling to a localized projection within the tree. This is not due to ignorance or attachment, but an intentional choice made after non-separation is realized.
 
-This Bodhisattva orientation is specific to Mahyna Buddhism; Theravda Buddhism focuses on realization of Nirvana and becoming Buddha without the Bodhisattva step. Both perspectives are equally deep, and it is outside the scope of this book to prefer one over the other.
+This Bodhisattva orientation is specific to Mahāyāna Buddhism; Theravāda Buddhism focuses on realization of Nirvana and becoming Buddha without the Bodhisattva step. Both perspectives are equally deep, and it is outside the scope of this book to prefer one over the other.
 
 Analogy: Imagine the entire world is a single body - your body. You injure your arm. One approach is to remain still and let the pain resolve naturally, knowing it will pass. Another is to take a painkiller - not because the pain is ultimately real, but because pain is still pain while it is occurring, and reducing it changes what the whole body experiences during healing.
 
-In terms: Buddha is non-separation, Nirvana is clear seeing, and the Bodhisattva orientation is the deliberate continuation of spatial projection after realization.
+In ±Theory terms: Buddha is non-separation, Nirvana is clear seeing, and the Bodhisattva orientation is the deliberate continuation of spatial projection after realization.
 
 
 ## B.2 Hindu Traditions
@@ -2554,7 +2575,7 @@ How does infinite unity create finite multiplicity? Through tzimtzum - Ein Sof "
 
 Profound paradox: infinite cannot literally contract. Tzimtzum is logical necessity: Ein Sof limits its apparent infinity to permit appearance of limitation while remaining actually infinite.
 
-This is the first recursion - E = \E^+, E^-\ - unity differentiating into complementary poles while remaining single structure.
+This is the first recursion - E = {E⁺, E⁻} - unity differentiating into complementary poles while remaining single structure.
 
 Tree of Life (Etz Chaim):
 
@@ -2570,7 +2591,7 @@ Mapping:
 [TABLE]
 
 
- vindicates their insight: reality is tree-structured because recursive duality generates binary tree. Kabbalah discovered this computationally; we now derive it formally.
+±Theory vindicates their insight: reality is tree-structured because recursive duality generates binary tree. Kabbalah discovered this computationally; we now derive it formally.
 
 
 ## B.4 Western Psychology
@@ -2585,7 +2606,7 @@ Jung discovered universal patterns appearing across all cultures: Hero, Shadow, 
 
 Traditional psychology struggled to explain why same symbols recur across isolated cultures.
 
- Answer:
+±Theory Answer:
 
 Archetypes are not inherited in genes - they're structural inevitabilities. Just as recursive subdivision necessarily produces certain geometric patterns, constraint propagation necessarily produces certain psychological patterns.
 
@@ -2595,9 +2616,9 @@ Sigmund Freud - The Unconscious:
 
 Freud's core insight: most mental activity is unconscious - operating without direct awareness yet profoundly influencing behavior.
 
-:
+±Theory:
 
-Conscious mind = patterns with strong coupling to reflective observation.\\
+Conscious mind = patterns with strong coupling to reflective observation.
 Unconscious = constraint structures operating without coupling to awareness.
 
 Your "self" is tiny portion of total constraint structure. Most operates below coupling threshold to conscious projection.
@@ -2625,7 +2646,7 @@ Mapping:
 [TABLE]
 
 
-Spinoza intuited what formalizes: no independent entities exist - only single self-sustaining process temporarily manifesting as apparent multiplicity. His "modes" are our spatial projections. His determinism is our constraint propagation.
+Spinoza intuited what ±Theory formalizes: no independent entities exist - only single self-sustaining process temporarily manifesting as apparent multiplicity. His "modes" are our spatial projections. His determinism is our constraint propagation.
 
 He lacked formal mechanism but saw the structure clearly: reality is one, appearing as many.
 
@@ -2655,7 +2676,7 @@ Mapping:
 [TABLE]
 
 
-Whitehead saw what proves: reality is process, not substance. His "actual occasions" are patterns forming at resolution events. His "prehension" is constraint propagation. His "creativity" is the recursive tree continuously growing.
+Whitehead saw what ±Theory proves: reality is process, not substance. His "actual occasions" are patterns forming at resolution events. His "prehension" is constraint propagation. His "creativity" is the recursive tree continuously growing.
 
 He came closest among Western philosophers to seeing the structure as it actually is: ongoing process with no static ground.
 
@@ -2681,11 +2702,11 @@ Spencer-Brown begins with distinction but must import:
 
 These constitute additional structure beyond the Mark itself. Boolean logic gets encoded through these operations, not derived from the Mark.
 
- Goes Further:
+±Theory Goes Further:
 
- requires no additional rules. Logic emerges necessarily at Level 3 as the complete space of relation mappings. The 16 operations aren't constructed - they're the exhaustive set of consistent mappings.
+±Theory requires no additional rules. Logic emerges necessarily at Level 3 as the complete space of relation mappings. The 16 operations aren't constructed - they're the exhaustive set of consistent mappings.
 
-Spencer-Brown's framework is syntactic (manipulation of symbols). is generative (structure produces operations).
+Spencer-Brown's framework is syntactic (manipulation of symbols). ±Theory is generative (structure produces operations).
 
 
 ### B.6.2 Wheeler - It from Bit
@@ -2697,27 +2718,27 @@ Core Ideas:
 
 Reality doesn't exist independently of observation. Observer participation in asking yes/no questions creates the physical world.
 
-Fundamental level: binary alternatives (yes/no, +/-). Physical structure emerges from accumulation of binary choices.
+Fundamental level: binary alternatives (yes/no, ±). Physical structure emerges from accumulation of binary choices.
 
 Where Wheeler Stops:
 
 Wheeler never formalized mechanism. How do yes/no questions create physical structure? What is the process? He described the principle but couldn't derive physics from it.
 
- Formalizes Wheeler:
+±Theory Formalizes Wheeler:
 
 
 [TABLE]
 
 
-Wheeler intuited that binary information generates physical reality. shows the formal mechanism: E = \E^+, E^-\ recursively applied generates space, quantum mechanics, and classical physics.
+Wheeler intuited that binary information generates physical reality. ±Theory shows the formal mechanism: E = {E⁺, E⁻} recursively applied generates space, quantum mechanics, and classical physics.
 
-Wheeler asked the right question. provides the derivation.
+Wheeler asked the right question. ±Theory provides the derivation.
 
 
 ## Synthesis: Why Convergence Happens
 
 
-Buddhism (Ngrjuna), Hinduism (Advaita), Kabbalah, Jung, Spinoza, Whitehead, Spencer-Brown, Wheeler - all describe similar structure:
+Buddhism (Nāgārjuna), Hinduism (Advaita), Kabbalah, Jung, Spinoza, Whitehead, Spencer-Brown, Wheeler - all describe similar structure:
 
 Shared Core Insights:
 
@@ -2764,7 +2785,7 @@ Multiple independent paths reaching same conclusions provides strong evidence th
 
 For millennia, humans investigated reality through contemplation, philosophy, and mystical experience. They discovered profound truths but lacked formal language to express them precisely.
 
- provides that language. What Ngrjuna proved philosophically, what Dzogchen practitioners recognized experientially, what Kabbalists mapped structurally, what Jung discovered psychologically - we can now derive formally and computationally from a single axiom.
+±Theory provides that language. What Nāgārjuna proved philosophically, what Dzogchen practitioners recognized experientially, what Kabbalists mapped structurally, what Jung discovered psychologically - we can now derive formally and computationally from a single axiom.
 
 Not replacing these traditions but completing them. Showing they were right. The structure they described exists.
 
@@ -2945,7 +2966,7 @@ This is not belief or consolation; it is structural description. Pattern annihil
 ### C.4.1 Free Will as Structural Participation
 
 
-From a hypothetical omniscient perspective (which doesn't actually exist), constraint propagation is deterministic. All patterns follow from E = \E^+, E^-\ through recursive resolution.
+From a hypothetical omniscient perspective (which doesn't actually exist), constraint propagation is deterministic. All patterns follow from E = {E⁺, E⁻} through recursive resolution.
 
 From observer perspective (the only one that actually exists), choice is experienced as real.
 
@@ -3019,7 +3040,7 @@ The structure doesn't judge or punish. It simply propagates constraints and mani
 ## Conclusion: Integration Without Reduction
 
 
-Understanding as formal structure doesn't diminish experiential richness. If anything, it reveals that reality is far stranger and more open than naive materialism allows.
+Understanding ±Theory as formal structure doesn't diminish experiential richness. If anything, it reveals that reality is far stranger and more open than naive materialism allows.
 
 What the framework shows:
 
@@ -3083,11 +3104,11 @@ Only duality itself is allowed.
 ### D.1 The Phenomenological Constraint: Duality
 
 
-In the Kacc\=anagotta Sutta, Gautama Buddha makes a precise structural observation:
+In the Kaccānagotta Sutta, Gautama Buddha makes a precise structural observation:
 
 
 "
-"This world, Kacc\=ana, for the most part depends upon a duality - upon the notion of existence and the notion of non-existence."
+"This world, Kaccāna, for the most part depends upon a duality - upon the notion of existence and the notion of non-existence."
 "
 
 
@@ -3114,7 +3135,7 @@ Any framework claiming to describe reality prior to conceptual construction must
 To formalize this constraint without importing additional assumptions, we introduce the minimal structure capable of expressing "depends on a duality":
 
 
-E = \E^+, E^-\
+E = {E⁺, E⁻}
 
 
 This definition is intentionally strict:
@@ -3138,7 +3159,7 @@ At the first division of duality, distinction and negation are not separate oper
 When
 
 
-E = \E^+, E^-\
+E = {E⁺, E⁻}
 
 
 appears, two things occur simultaneously:
@@ -3181,11 +3202,11 @@ Each pole can only reflect itself by reproducing the same dual structure inwardl
 Recursion is therefore not a rule.
 It is the only possible continuation consistent with the primitive.
 
-Using the alphabet \+, -\:
+Using the alphabet {+, -}:
 
 
  - Depth 1: +, -
- - Depth 2: -, -+, +-, ++
+ - Depth 2: --, -+, +-, ++
  - Depth n: all binary strings of length n
 
 
@@ -3206,10 +3227,10 @@ Example, depth 3:
 Placing a mirror at the midpoint pairs:
 
 
-011 & 100 \\
-010 & 101 \\
-001 & 110 \\
-000 & 111
+011 ↔ 100
+010 ↔ 101
+001 ↔ 110
+000 ↔ 111
 
 
 Each pair is related by bitwise inversion.
@@ -3219,7 +3240,7 @@ This is not accidental.
 For any depth n:
 
 
-(s) = (2^n - 1) - s
+¬(s) = (2^n − 1) − s
 
 
 Thus:
@@ -3239,7 +3260,7 @@ Logic appears as soon as relations between relations become possible.
 Depth 2 produces exactly four atomic states:
 
 
-_2 = \-, -+, +-, ++\
+Ω_2 = {--, -+, +-, ++}
 
 
 A Boolean connective is nothing more than:
@@ -3267,38 +3288,38 @@ Logic appears as classification over a finite state space.
 Given two symbols x, y, there is one unavoidable distinction:
 
 
- - same: -, ++ XNOR
- - different: -+, +- XOR
+ - same: --, ++ (XNOR)
+ - different: -+, +- (XOR)
 
 
 These partitions are structurally forced.
 
 
-#### D.7.2 Difference Order
+#### D.7.2 Difference: Order
 
 
 Within difference, the only remaining distinction is order:
 
 
- - +- x y
- - -+ x y
+ - +- : x → y
+ - -+ : y → x
 
 
 From this, implication emerges naturally:
 
-x y is false only on +-
+x → y is false only on +-
 
 Directionality and conditionality require no additional assumptions.
 
 
-#### D.7.3 Sameness AND or NOR
+#### D.7.3 Sameness: AND or NOR
 
 
 Within sameness, the only possible refinement is which sameness is privileged:
 
 
- - privilege ++ AND
- - privilege - NOR
+ - privilege ++ → AND
+ - privilege -- → NOR
 
 
 NAND and OR follow immediately via structural NOT.
@@ -3350,7 +3371,7 @@ This framework continues the structure without introducing anything else.
 ### D.9 Buddhism and Structural Duality
 
 
-The Buddha's statement in the Kacc\=anagotta Sutta is not metaphysical speculation.
+The Buddha's statement in the Kaccānagotta Sutta is not metaphysical speculation.
 
 It is a structural diagnosis:
 
@@ -3390,13 +3411,13 @@ Logic is what recursive duality looks like when examined at minimal resolution.
 
 The derivation above follows relaxed growth principles: all sixteen operations are treated as appearing simultaneously at depth 2 of the Tree of Life.
 
-However, if the shortest-path compression principle is applied strictly - starting from the initial +/- duality and the resulting COPY and FLIP operations - a more constrained sequence emerges.
+However, if the shortest-path compression principle is applied strictly - starting from the initial ± duality and the resulting COPY and FLIP operations - a more constrained sequence emerges.
 
 Under this stricter analysis, operations stabilize in order of their minimal generative description length. AND appears early, requiring only COPY. NAND and NOR appear in the final batch, as they require both COPY and FLIP in their compressed witness descriptions. When extended to higher-arity structures, the same pattern holds: Rule 110 stabilizes late, emerging only after projection, negation, coincidence, and conditional routing have already become available as reusable constructs.
 
 This represents experimental evidence of a fundamental principle: more expressive operations arise exclusively through composition and compression of less expressive counterparts. In this framework, functional completeness is not a primitive property but an emergent one - the natural consequence of compression reaching a threshold where previously separate generative capacities unify under a single operation.
 
-This principle is implicit in logic and cellular automaton theory but has not been stated as a structural necessity. In , it is unavoidable.
+This principle is implicit in logic and cellular automaton theory but has not been stated as a structural necessity. In ±Theory, it is unavoidable.
 
 
 ========================================
